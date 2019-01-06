@@ -1,8 +1,8 @@
-def square_array
-
-square_array=Array.new
-square_array.each do |square|
-square_array << square**2
-end
-
+def square_array(numbers)
+  # your code here	  square_array = Array.new
+end 	  numbers.each do |a|
+    b = a**2
+    square_array << b
+  end
+  square_array
 end
